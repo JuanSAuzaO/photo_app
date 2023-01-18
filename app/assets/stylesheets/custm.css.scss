@@ -3,6 +3,7 @@
   padding: 5px 15px !important;
   margin-top: 10px;
   font-size: 14px;
+  margin-right: 5px;
 }
 
 .btn.btn-success:hover {
@@ -15,4 +16,43 @@
 
 .btn.btn-danger:hover {
   background-color: darken($color: #d9534f, $amount: 10) !important;
+}
+
+.btn.btn-info:hover {
+  background-color: darken($color: #5bc0de, $amount: 10) !important;
+}
+
+.features {
+  ul {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: asset-url('A320VIVA.jpeg');
+  background-size: cover;
+  color: #fff;
+  font-family: 'Helvetica Neue' !important;
+  font-stretch: expanded;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  border: 1px solid black
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
+
+.t {
+  color: black;
 }
