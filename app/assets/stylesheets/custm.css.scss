@@ -1,0 +1,18 @@
+.btn {
+  color: white !important;
+  padding: 5px 15px !important;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.btn.btn-success:hover {
+  background-color: darken($color: #5cb85c, $amount: 10) !important;
+}
+
+.nav.navbar-nav {
+  float: right;
+}
+
+.btn.btn-danger:hover {
+  background-color: darken($color: #d9534f, $amount: 10) !important;
+}
