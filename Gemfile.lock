@@ -202,6 +202,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.0-x64-mingw32)
+    stripe (8.1.0)
     thor (1.2.1)
     tilt (2.0.11)
     timeout (0.3.1)
@@ -258,6 +259,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver
   sqlite3 (~> 1.4)
+  stripe
   turbolinks (~> 5)
   twitter-bootstrap-rails
   tzinfo-data

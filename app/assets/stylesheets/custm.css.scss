@@ -31,16 +31,16 @@
 
 .jumbotron {
   text-align: center;
-  background-image: asset-url('A320VIVA.jpeg');
+  background-image: asset-url('sunset-beach.jpeg');
   background-size: cover;
-  color: #fff;
+  color: white;
   font-family: 'Helvetica Neue' !important;
   font-stretch: expanded;
   padding-top: 25px;
   padding-bottom: 25px;
   margin-left: 15px;
   margin-right: 15px;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   border: 1px solid black
 }
 
@@ -53,6 +53,6 @@
   padding-left: 0;
 }
 
-.t {
-  color: black;
+#lead {
+  font-size: 22px;
 }
