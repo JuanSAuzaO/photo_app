@@ -7,6 +7,7 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
+import "../../assets/javascripts/credit_card_form"
 
 Rails.start()
 Turbolinks.start()
