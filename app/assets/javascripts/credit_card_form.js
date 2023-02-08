@@ -1,4 +1,4 @@
-$(document).on('ready turbolinks:load', (function() {
+$(document).ready(function() {
   
   var show_error, stripeResponseHandler, submitHandler;
   
@@ -30,7 +30,7 @@ $(document).on('ready turbolinks:load', (function() {
       token = response.id;
       $form.append($("<input type=\"hidden\" name=\"payment[token]\" />").val(token));
       $("[data-stripe=number]").remove();
-      $("[data-stripe=cvc]").remove();
+      $("[data-stripe=cvv]").remove();
       $("[data-stripe=exp-year]").remove();
       $("[data-stripe=exp-month]").remove();
       $("[data-stripe=label]").remove();
@@ -47,4 +47,4 @@ $(document).on('ready turbolinks:load', (function() {
     $('.alert').delay(5000).fadeOut(3000);
     return false;
   };
-}));
+});
